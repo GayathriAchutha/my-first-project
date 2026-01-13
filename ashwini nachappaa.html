@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aswini Nachappa | Athlete Profile</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+        }
+
+        header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1e3c72;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #2a5298;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            margin: 30px 0;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+            border-left: 5px solid #2a5298;
+            padding-left: 10px;
+        }
+
+        section p {
+            color: #333;
+            line-height: 1.7;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #f4f6fb;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background-color: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Aswini Nachappa</h1>
+    <p>Indian Track and Field Athlete</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#career">Career</a>
+    <a href="#achievements">Achievements</a>
+</nav>
+
+<div class="container">
+
+    <section id="about">
+        <h2>About</h2>
+        <p>
+            Aswini Nachappa is a former Indian sprinter renowned for her performance
+            in the 400 meters event. She represented India in several international
+            competitions and later contributed to Indian athletics as a coach and
+            sports administrator.
+        </p>
+    </section>
+
+    <section id="career">
+        <h2>Career Highlights</h2>
+        <ul>
+            <li>Specialized in the 400m sprint</li>
+            <li>Represented India in Asian and international championships</li>
+            <li>Served as a coach and sports official after retirement</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Asian Games</h3>
+                <p>Medalist representing India</p>
+            </div>
+
+            <div class="card">
+                <h3>National Champion</h3>
+                <p>Multiple national-level titles</p>
+            </div>
+
+            <div class="card">
+                <h3>Sports Recognition</h3>
+                <p>Awards for contribution to athletics</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>Mini Project | Frontend Web Development (HTML & CSS)</p>
+</footer>
+
+</body>
+</html>
